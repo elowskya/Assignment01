@@ -20,4 +20,9 @@ function getGrid(gridWidth) {
          }
 }
 
-getGrid(4);
+getGrid(7);
+
+function userNumber() {
+let userNumber = document.getElementById(number);
+console.log(number + " I am the grid");
+}
