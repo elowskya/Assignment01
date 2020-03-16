@@ -1,3 +1,5 @@
+// import { number } from "prop-types";
+
 // design pattern
 let pattern1 = " " + "#";
 let pattern2 = "#" + " ";
@@ -20,9 +22,15 @@ function getGrid(gridWidth) {
          }
 }
 
-getGrid(7);
+// getGrid(7);
 
-function userNumber() {
-let userNumber = document.getElementById(number);
-console.log(number + " I am the grid");
+
+let userInput = document.getElementById("number");
+
+// userInput.value
+document.getElementById("submit").addEventListener("click", submitButtonFunction); 
+
+function submitButtonFunction(userInput) {
+   userInput.preventDefault();
+   console.log(userInput);
 }

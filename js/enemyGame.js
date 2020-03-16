@@ -3,20 +3,20 @@
 let player = {
     life: 50,
     defense: 1,
-    strength: 5,
+    attack: 5,
 }
 
 //create enemy object
 let beginningEnemy = {
     life: 5,
     defense: 0,
-    strength: 2
+    attack: 2
 }
 
 let beginningEnemy2 = {
     life: 7,
     defense: 0,
-    strength: 3
+    attack: 3
 }
 
 // beginning levels objects
