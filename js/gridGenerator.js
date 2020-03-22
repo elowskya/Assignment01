@@ -34,5 +34,4 @@ function submitButtonFunction() {
    let gridWidth = number;
     console.log(number);
     getGrid(gridWidth);
-  
 }
