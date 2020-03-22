@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     color: white;
+    background-color: lightgoldenrodyellow;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -10,19 +11,42 @@ header {
     margin-top: -1%;
     background-color: antiquewhite;
     background-image: url("../img/abstractFace.jpg");
-    background-position: auto;
-    /* background-repeat: no-repeat; */
-    height: 99vh;   
+    height: 95vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
-header div {
+article {
     background: rgba(13, 32, 58, 0.5);
-    padding: 3%;
+    padding: 1%;
     border-radius: 3%;
+    margin: 6% 0 0;
+    display: inline-block;
 }
 
-.floatLeft {
-    float: left;
+.getGrid {
+    background-image: url("../img/abstractBird.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#getGrid {
+    margin-top: 1%;
+}
+
+div img {
+    transform: rotateZ(180deg);
+}
+
+button {
+    background: rgba(13, 32, 58, 0.5);
+    border: none;
+    color: white;
+    margin: 2%;
+    padding: 2%;
 }
 
 nav {

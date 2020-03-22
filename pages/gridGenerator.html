@@ -16,27 +16,25 @@
              <li><a href="enemyGame.html">Enemies Game</a> </li>
         </ul>
     </nav>
-    <div class="floatLeft">
-        <h1>Design Your Grid</h1>
-        <h2>Patterns, Repetition, Creativity</h2>
-        <h3>Choose your grid pattern</h3>
-    
-
+    <article>
+        <h1>Grid Design</h1>
+        <h3>Choose Your Grid Size</h3>
 
         <form action="" id="form" onsubmit="submitButtonFunction();">
         <div>
-        <label for="number">Your Number (1 to 99):</label>
+        <label for="number">Pick a Number (1 to 50):</label>
         <input type="number" id="number" name="number" required
-           min="1" max="99">
+           min="1" max="50">
         </div>
         
            <button type="submit">Submit</button>
         </form>
-    </div>
-        <!-- <br/> -->
-        <article id="getGrid"></article>
-    </header>
+    </article>
+</header>
 
+    <div class="getGrid">
+    <article id="getGrid"></article>
+    </div>
 
            <script src="../js/gridGenerator.js"></script>
 </body>
