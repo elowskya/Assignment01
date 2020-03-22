@@ -1,14 +1,13 @@
 // import { number } from "prop-types";
 
 // design pattern
-let pattern1 = " " + "#";
-let pattern2 = "#" + " ";
+let pattern1 = "&nbsp;" + "#";
+let pattern2 = "#" + "&nbsp;";
 
 // create function to generate grid and test if odd number with modulus operator
 function getGrid(gridWidth) {
 //  let output1 = pattern1.repeat(gridWidth) + "\n";
  let output1 = pattern1.repeat(gridWidth) + "<br/>";
-
 
 //  let output2 = pattern2.repeat(gridWidth) + "\n";
  let output2 = pattern2.repeat(gridWidth) + "<br/>";
@@ -32,7 +31,8 @@ function getGrid(gridWidth) {
 function submitButtonFunction() {
    event.preventDefault();
    let number = document.getElementById("number").value;
+   let gridWidth = number;
     console.log(number);
-    getGrid(number);
+    getGrid(gridWidth);
   
 }
