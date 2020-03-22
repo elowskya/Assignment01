@@ -6,6 +6,7 @@
 <ul>
     <li> Alternating Pattern </li>
     <li> Function Declaration</li>
+    <li> If/Else Statements</li>
     <li> Modulus Operator</li>
     <li> Receiving User Input from a Form</li>
 </ul>
